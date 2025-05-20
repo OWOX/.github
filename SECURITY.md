@@ -1,22 +1,29 @@
-# Security
+# Security Policy
 
-Thank you for helping make OWOX safe for everyone.
+At **OWOX**, we take security very seriously.
 
-OWOX takes the security of our software seriously, including all of the open source code repositories managed through [this GitHub organization](https://github.com/OWOX/).
+Our data connectors are open source because we believe users should never be forced to share credentials with third parties. This design empowers you to review the code yourself and ensure your data remains in your control.
 
-## Data Control & Privacy
+For the **Apps Script Edition**, all credentials are stored exclusively in each user’s **Document Properties**. This means:
 
-In our open source software, we ensure that data provided to maintained software remains secure and is not leaked to unauthorized parties. We maintain strict control over data access to protect sensitive information. We do not collect user's data to our servers and do not accept contributions that would violate these privacy and security principles.
+* No one but you has access to your data or credentials.  
+* The script runs in your own Google account environment.  
+* Access to your data is only granted if you explicitly authorize it.
 
-## Reporting a Vulnerability
+We encourage transparency — if you have any questions or concerns, you’re welcome to review the [source code](https://github.com/OWOX/owox-data-marts), explore [open discussions](https://github.com/OWOX/owox-data-marts/discussions), or reach out to us directly.
 
-**Important:** If you think you've found a security issue, please DO NOT report, discuss, or describe it on GitHub.
+We strongly recommend using the **latest version** of OWOX BI and its connectors. Each release may include important security updates, so keeping your setup current is essential for optimal protection.
 
-All security-related issues, concerns, and problems must be reported via email to: [data-protection@owox.com](mailto:data-protection@owox.com)
+# Reporting a Vulnerability
 
-When reporting a security issue, please include:
-- Everything necessary to reproduce the problem
-- A detailed example
-- Any relevant technical details
+If you discover a potential security vulnerability, we ask that you **disclose it responsibly**:
 
-**Note:** Please don't add explicit details about the security issue you are reporting in any of the repository's contents.
+* **Do not create a public GitHub issue.**  
+* Instead, contact our team at: **data-protection@owox.com**
+
+We commit to acknowledging your report promptly and working closely with you to confirm the issue and plan a timely fix.
+
+While OWOX does not currently offer a private bug bounty program or monetary rewards, we deeply appreciate the efforts of the security research community. You can report vulnerabilities through our official program on [https://hackerone.com/owox](https://hackerone.com/owox).
+
+Submitting reports there helps strengthen the security of our products and builds your reputation within the global security community.
+
